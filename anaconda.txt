@@ -1,0 +1,18 @@
+# to create the virtual environment
+conda create -n HW1 python=3.10
+
+# followed by
+conda activate HW1
+
+# to install packages mentioned in the text file
+pip install -r requirements.txt
+
+# to get 2.24 version
+pip install requests==2.24
+
+# to get latest verrsion
+pip install requests -U
+
+# to see the latest version
+pip list | grep "requests"
+# coming out to be 2.31.0 for me
